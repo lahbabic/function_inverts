@@ -33,7 +33,7 @@ ax.contour3D(X0, Z0, Y0, 10, cmap="autumn")
 ax.plot3D(x1, y1, z1, "red")
 
 #ax.contour3D(X1, Y1, Z1, 50)
-ax.set_title("function z=y*exp(x) and it\'s inverts y = z/exp(x) and x = ln(z)")
+ax.set_title("function z=y*exp(x) in blue and it\'s inverts\ny = z/exp(x) in autumn  and x = ln(z) in red.")
 ax.set_xlabel('x')
 ax.set_ylabel('y')
 ax.set_zlabel('z')
